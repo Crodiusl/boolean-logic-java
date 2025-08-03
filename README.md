@@ -1,2 +1,3 @@
 ## Simple Boolean Logic methods in Java
-<img width="922" height="956" alt="image" src="https://github.com/user-attachments/assets/4e00bcea-8ecc-4ff3-ae51-b60b9acfe9e1" />
+<img width="937" height="954" alt="image" src="https://github.com/user-attachments/assets/9e32dfce-fa2a-48de-afd5-b41a68277473" />
+
