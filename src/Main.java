@@ -12,9 +12,9 @@ public class Main {
                 "NAND",
                 "OR",
                 "XOR",
-                "EQUAL",
-                "IF X THEN Y",
-                "IF Y THEN X",
+                "EQUAL/XNOR",
+                "IMPLY",
+                "NIMPLY",
                 "ONE"
         };
         String[][] result = new String[names.length][4];
@@ -51,15 +51,15 @@ public class Main {
         }
         // EQUAL
         for (int i = 0; i < 4; i++) {
-            result[7][i] = String.valueOf(EQUAL(x[i], y[i]));
+            result[7][i] = String.valueOf(XNOR(x[i], y[i]));
         }
-        // IFX
+        // IMPLY
         for (int i = 0; i < 4; i++) {
-            result[8][i] = String.valueOf(IFX(x[i], y[i]));
+            result[8][i] = String.valueOf(IMPLY(x[i], y[i]));
         }
-        // IFY
+        // NIMPLY
         for (int i = 0; i < 4; i++) {
-            result[9][i] = String.valueOf(IFY(x[i], y[i]));
+            result[9][i] = String.valueOf(NIMPLY(x[i], y[i]));
         }
         // 1
         for (int i = 0; i < 4; i++) {
